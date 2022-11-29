@@ -1,0 +1,27 @@
+#page-header:not(.not-top-img):before {
+  background-color: rgba(0, 0, 0, 0);
+}
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+*::-webkit-scrollbar-thumb {
+  border-radius: 1em;
+  background-color: rgba(50, 50, 50, 0.3);
+}
+*::-webkit-scrollbar-track {
+  border-radius: 1em;
+  background-color: rgba(50, 50, 50, 0.1);
+}
+@font-face {
+  font-family: quicksand;
+  src: url("https://fonts.gstatic.com/s/quicksand/v30/6xKtdSZaM9iE8KbpRA_hK1QN.woff2");
+}
+body {
+  font-family: quicksand, "思源黑体 CN Regular", "Microsoft YaHei", monospace;
+}
+#page-header #site-title,
+#page-header #site-sub-title,
+#page-header #site-subtitle {
+  text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.95) !important;
+}
