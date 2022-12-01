@@ -1,5 +1,5 @@
 #page-header:not(.not-top-img):before {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 *::-webkit-scrollbar {
   width: 5px;
