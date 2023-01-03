@@ -3,12 +3,14 @@
 # --------------------------------------
 
 menu:
-  search: /search/ || fas fa-search
-  Home: / || fas fa-home
-  Archives: /archives/ || fas fa-archive
-  Tags: /tags/ || fas fa-tags
-  Categories: /categories/ || fas fa-folder-open
-  About: /about/ || fas fa-heart
+  搜索: /search/ || fas fa-search
+  首页: / || fas fa-home
+  文章: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  工作: /work/ || fas fa-solid fa-user-doctor
+  关于: /about/ || fas fa-heart
+  相册: /gallery/ || fas fa-duotone fa-image
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -73,11 +75,11 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /images/favicon2.png
+favicon: /images/favicon2.jpg
 
 # Avatar (頭像)
 avatar:
-  img: http://tva1.sinaimg.cn/large/007uakq1gy1h8l7202vntj30u00u077x.jpg
+  img: https://i0.wp.com/ww1.sinaimg.cn/large/007uakq1gy1h9qtgql16rj30rs0rqtao.jpg
   effect: false
 
 # Disable all banner image
@@ -518,7 +520,11 @@ tag_ui: # 留空或 index
 background:
 
 # Footer Background
-footer_bg: false
+footer_bg: linear-gradient(-45deg,#ee7752,#ce3e75,#23a6d5,#23d5ab)
+  # - orange
+  # - red
+  # - linear-gradient(-45deg,#ee7752,#ce3e75,#23a6d5,#23d5ab)
+  # - linear-gradient(-45deg,#ee7752,#ce3e75,#23a6d5,#23d5ab)
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:

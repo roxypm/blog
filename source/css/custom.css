@@ -25,3 +25,23 @@ body {
 #page-header #site-subtitle {
   text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.95) !important;
 }
+
+#footer {
+  /* background: linear-gradient(-45deg,#ee7752,#ce3e75,#23a6d5,#23d5ab)!important; */
+  animation: ccc 5s ease infinite;
+  transition: all 0.3s;
+}
+
+@keyframes ccc {
+  0% {
+    background: linear-gradient(-45deg, #ee7752, #ce3e75, #23a6d5, #23d5ab);
+  }
+
+  50% {
+    background: linear-gradient(-90deg, #ce3e75, #ee7752, #23a6d5, #23d5ab);
+  }
+
+  100% {
+    background: linear-gradient(-125deg, #23d5ab, #ce3e75, #23a6d5, #ee7752);
+  }
+}
