@@ -3,7 +3,7 @@
 # --------------------------------------
 
 menu:
-  搜索: /search/ || fas fa-search
+  # 搜索: /search/ || fas fa-search
   首页: / || fas fa-home
   文章: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
@@ -49,8 +49,8 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
-  preload: false
+  enable: true
+  preload: true
   CDN:
 
 # Math (數學)
@@ -884,7 +884,9 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/custom.css">
+    
   bottom:
+    - <script src="/js/custom.js"></script>
     # - <script src="xxxx"></script>
 
 # CDN

@@ -15,10 +15,10 @@
 }
 @font-face {
   font-family: quicksand;
-  src: url("https://fonts.gstatic.com/s/quicksand/v30/6xKtdSZaM9iE8KbpRA_hK1QN.woff2");
+  src: url('https://fonts.gstatic.com/s/quicksand/v30/6xKtdSZaM9iE8KbpRA_hK1QN.woff2');
 }
 body {
-  font-family: quicksand, "思源黑体 CN Regular", "Microsoft YaHei", monospace;
+  font-family: quicksand, '思源黑体 CN Regular', 'Microsoft YaHei', monospace;
 }
 #page-header #site-title,
 #page-header #site-sub-title,
@@ -27,21 +27,28 @@ body {
 }
 
 #footer {
-  /* background: linear-gradient(-45deg,#ee7752,#ce3e75,#23a6d5,#23d5ab)!important; */
-  animation: ccc 5s ease infinite;
-  transition: all 0.3s;
+  background-image: linear-gradient(
+    -45deg,
+    #ee7752,
+    #ce3e75,
+    #23a6d5,
+    #23d5ab
+  ) !important;
+  background-size: 400% 400% !important;
+  animation: ccc 10s ease infinite;
 }
 
 @keyframes ccc {
   0% {
-    background: linear-gradient(-45deg, #ee7752, #ce3e75, #23a6d5, #23d5ab);
+    background-position: 0 50%;
   }
 
   50% {
-    background: linear-gradient(-90deg, #ce3e75, #ee7752, #23a6d5, #23d5ab);
+    background-position: 100% 50%;
   }
 
   100% {
-    background: linear-gradient(-125deg, #23d5ab, #ce3e75, #23a6d5, #ee7752);
+    background-position: 0 50%;
   }
 }
+s
