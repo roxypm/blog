@@ -2,7 +2,9 @@
 title: alist 部署步骤 
 date: 2022-12-2 00:39:55
 tags: 网站
+cover: /images/bizhi/7d8f334c46f8ba1941e838c62bcc1934.jpg
 password: 232125dyx
+categories: 技术贴
 ---
 # 用法：
 
