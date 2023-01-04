@@ -34,8 +34,8 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  fab fa-github: https://github.com/alyx111 || Github
-  fas fa-envelope: mailto:13372743425alyx@gmail.com || Email
+  fas fa-solid fa-droplet: https://juejin.cn/user/2247837491936151 || 掘金
+  fas fa-sharp fa-solid fa-lemon: https://blog.csdn.net/weixin_44611785?spm=1000.2115.3001.5343 || CSDN
 
 # search (搜索)
 # see https://butterfly.js.org/posts/ceeb73f/#搜索系統
