@@ -20,13 +20,14 @@ HI，我是艾利克斯
 
 # 联系我
 
-WeChat：dyx930505227
-
-GitHub：https://github.com/Alyx111/
-
+WeChat：
+<details>
+<summary>展开查看</summary>
+ <img src="https://alyx111.oss-cn-shenzhen.aliyuncs.com/img/QQ%E5%9B%BE%E7%89%8720230112224329.jpg" style="width:300px;height:400px" alt="">
+</details>
 Email：930505227@qq.com
 
-CSDN: https://blog.csdn.net/weixin_44611785?spm=1008.2028.3001.5343
+
 
 
 
