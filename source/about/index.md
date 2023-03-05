@@ -20,9 +20,8 @@ HI，我是艾利克斯
 
 # 联系我
 
-WeChat：
 <details>
-<summary>展开查看</summary>
+<summary>WeChat：展开查看</summary>
  <img src="https://alyx111.oss-cn-shenzhen.aliyuncs.com/img/QQ%E5%9B%BE%E7%89%8720230112224329.jpg" style="width:300px;height:400px" alt="">
 </details>
 Email：930505227@qq.com

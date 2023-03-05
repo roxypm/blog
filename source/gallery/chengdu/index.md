@@ -1,19 +1,5 @@
 {%gallery%}
 
 ![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chengdu/chengdu(1).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chengdu/chengdu(10).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chengdu/chengdu(11).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chengdu/chengdu(12).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chengdu/chengdu(13).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chengdu/chengdu(14).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chengdu/chengdu(15).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chengdu/chengdu(16).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chengdu/chengdu(2).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chengdu/chengdu(3).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chengdu/chengdu(4).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chengdu/chengdu(5).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chengdu/chengdu(6).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chengdu/chengdu(7).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chengdu/chengdu(8).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chengdu/chengdu(9).jpg)
+
 {%endgallery%}

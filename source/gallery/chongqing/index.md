@@ -1,20 +1,5 @@
 {%gallery%}
 ![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chongqing/chongqing-2023-01-04-(1).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chongqing/chongqing-2023-01-04-(10).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chongqing/chongqing-2023-01-04-(11).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chongqing/chongqing-2023-01-04-(12).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chongqing/chongqing-2023-01-04-(13).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chongqing/chongqing-2023-01-04-(14).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chongqing/chongqing-2023-01-04-(15).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chongqing/chongqing-2023-01-04-(16).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chongqing/chongqing-2023-01-04-(2).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chongqing/chongqing-2023-01-04-(3).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chongqing/chongqing-2023-01-04-(4).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chongqing/chongqing-2023-01-04-(5).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chongqing/chongqing-2023-01-04-(6).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chongqing/chongqing-2023-01-04-(7).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chongqing/chongqing-2023-01-04-(8).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chongqing/chongqing-2023-01-04-(9).jpg)
-![](https://alyx111.oss-cn-shenzhen.aliyuncs.com/travel/chongqing/chongqing-2023-01-04-.jpg)
+
 
 {% endgallery %}
