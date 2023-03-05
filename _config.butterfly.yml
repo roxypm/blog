@@ -8,7 +8,7 @@ menu:
   文章: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  阅读: /work/ || fas fa-solid fa-user-doctor
+  阅读: /read/ || fas fa-solid fa-user-doctor
   关于: /about/ || fas fa-heart
   相册: /gallery/ || fas fa-duotone fa-image
 
