@@ -87,7 +87,7 @@ function draw() {
   text('也是一名IT前端开发者', width / 2, height * 0.46)
   text('喜欢用编程和设计去创造优雅并美观的作品', width / 2, height * 0.49)
   text('会在工作中借助编程手段千方百计地“偷懒”', width / 2, height * 0.52)
-  text('90后，坐标深圳，喜欢旅游、网球，疯狂加班中…', width / 2, height * 0.55)
+  text('90后，坐标深圳，喜欢旅游、网球，疯狂学习中…', width / 2, height * 0.55)
 
   for (var i = 0; i < t.length; i++) {
     circles[i].show()
