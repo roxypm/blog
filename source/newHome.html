@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>ROXY</title>
+  <link rel="icon" href="images/favicon2.jpg" type="image/x-icon" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" />
+
+  <link rel="stylesheet" type="text/css" href="css/fonts.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+  <script type="text/javascript" src="js/p5.min.js"></script>
+  <script type="text/javascript" src="js/p5.dom.min.js"></script>
+  <script type="text/javascript" src="js/matter.js"></script>
+  <script type="text/javascript" src="js/wp-embed.min.js"></script>
+  <script type="text/javascript" src="js/circle.js"></script>
+  <script type="text/javascript" src="js/rem.js"></script>
+  <script src="js/jquery-2.1.1.js"></script>
+  <style type="text/css">
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    img.wp-smiley,
+    img.emoji {
+      display: inline !important;
+      border: none !important;
+      box-shadow: none !important;
+      height: 1em !important;
+      width: 1em !important;
+      margin: 0 0.07em !important;
+      vertical-align: -0.1em !important;
+      background: none !important;
+      padding: 0 !important;
+    }
+
+    .target-logo {
+      color: #ea7689;
+      font-size: 32px;
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="nav-slanted"></div>
+  <!-- Full screen menu -->
+  <div class="nav-full-screen height-fixed height-fixed-xs height-fixed-portrait height-100 hidden" id="nav-full">
+    <nav>
+      <ul id="menu-menu"
+        class="flex-container flex-align-center justify-center align-center container height-fixed-portrait">
+        <li id="menu-item-19533"
+          class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-944 current_page_item menu-item-19533">
+          <a class="navtitle" href="/">主页</a>
+        </li>
+        <li id="menu-item-22497" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22497">
+          <a class="navtitle" href="/archives">博客</a>
+        </li>
+        <li id="menu-item-952" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-952">
+          <a class="navtitle" href="/gallery">旅游</a>
+        </li>
+        <li id="menu-item-953" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-953">
+          <a class="navtitle" href="./read">阅读</a>
+        </li>
+        <li id="menu-item-954" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-954">
+          <a class="navtitle" href="./生活技能">生活技能</a>
+        </li>
+        <!-- 	<li id="menu-item-949" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-949"><a class="navtitle" href="aboutme.html">关于我</a></li> -->
+      </ul>
+    </nav>
+  </div>
+  <!-- Logo + hamburger -->
+
+  <div class="nav" id="nav-btn">
+    <a class="target-logo" href="./"> ROXY </a>
+
+    <div class="target-hamburger">
+      <ul class="hamburger">
+        <li class="bun"></li>
+        <li class="bun"></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="icon-box">
+    <a class="wechat-box">
+      <img src="images/icon/wechat.svg" />
+
+      <img src="images/icon/wechat-qr.jpg" class="wechat-qr" />
+    </a>
+    <a href="https://blog.csdn.net/weixin_44611785" target="_blank">
+      <img src="images/icon/csdn.svg" />
+    </a>
+    <a href="https://github.com/roxypm" target="_blank">
+      <img src="images/icon/github.svg" />
+    </a>
+    <a href="https://twitter.com/roxyDeng" target="_blank">
+      <img src="images/icon/twitter.svg" />
+    </a>
+    <a href="https://instagram.com/yuxiang9194" target="_blank">
+      <img src="images/icon/ins.svg" />
+    </a>
+  </div>
+
+  <style>
+    .icon-box {
+      position: absolute;
+      bottom: 300px;
+      font-size: 50px;
+      text-align: center;
+      width: 300px;
+      display: flex;
+      justify-content: space-between;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .icon-box a {
+      position: relative;
+      cursor: pointer;
+    }
+
+    .icon-box a:hover {
+      color: #ea7689;
+      text-decoration: none;
+    }
+
+    .icon-box img {
+      height: 40px;
+    }
+
+
+
+    .icon-box .wechat-box .wechat-qr {
+      display: none;
+      width: auto;
+      height: 400px;
+      position: absolute;
+      flex-wrap: 0;
+      flex-shrink: 0;
+      top: -450px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .icon-box .wechat-box:hover .wechat-qr {
+      display: block;
+    }
+
+    .mobile .icon-box .wechat-box .wechat-qr {
+      left: 100px;
+    }
+  </style>
+  <script>
+    // judge mobile, if android or ios return true
+    function isMobile() {
+      var u = navigator.userAgent;
+      var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
+      var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+      return isAndroid || isiOS;
+    }
+    $(function () {
+      const isMobileFlag = isMobile()
+      console.log(isMobileFlag)
+      $('body').addClass(isMobileFlag ? 'mobile' : 'pc')
+    })
+    $('#nav-btn').click(function () {
+      $('#nav-full').toggleClass('hidden')
+      $('body').toggleClass('nav-active')
+    })
+
+  </script>
+
+  <script type="text/javascript" src="js/sketch.js"></script>
+</body>
+
+</html>

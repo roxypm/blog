@@ -3,10 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
+    "build": "hexo generate && npm run move",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+    "dev": "hexo server",
+    "move":"mv public/index.html public/home.html && mv public/newHome.html public/index.html"
   },
   "hexo": {
     "version": "6.3.0"
@@ -23,7 +25,7 @@
     "hexo-renderer-marked": "^6.0.0",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
-    "hexo-theme-butterfly": "^4.5.1",
+    "hexo-theme-butterfly": "^4.9.0",
     "hexo-theme-landscape": "^0.0.3"
   }
 }
