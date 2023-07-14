@@ -8,7 +8,7 @@
     "deploy": "hexo deploy",
     "server": "hexo server",
     "dev": "hexo server",
-    "move":"mv public/index.html public/blog.html && mv public/newHome.html public/index.html"
+    "move":"mv public/index.html public/blog/index.html && mv public/newHome.html public/index.html"
   },
   "hexo": {
     "version": "6.3.0"
