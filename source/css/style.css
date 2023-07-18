@@ -1,10 +1,29 @@
-xbody{
-  margin:0px;
-  padding:0px;
-  font-weight: 300;
-  font-size: 20pt;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
+img.wp-smiley,
+img.emoji {
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 0.07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
+}
+
+.target-logo {
+  color: #ea7689;
+  font-size: 32px;
+  font-style: italic;
+}
 
 .navbar{
   text-align: right;
@@ -3209,3 +3228,54 @@ a.BACK-NEXT:visted{
 
 
 
+.icon-box {
+  position: absolute;
+  bottom: 350px;
+  font-size: 50px;
+  text-align: center;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.icon-box a {
+  position: relative;
+  cursor: pointer;
+}
+
+.icon-box a:hover {
+  color: #ea7689;
+  text-decoration: none;
+}
+
+.icon-box img {
+  height: 40px;
+}
+
+
+
+.icon-box .wechat-box .wechat-qr {
+  display: none;
+  width: auto;
+  height: 400px;
+  position: absolute;
+  flex-wrap: 0;
+  flex-shrink: 0;
+  top: -450px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.icon-box .wechat-box:hover .wechat-qr {
+  display: block;
+}
+
+.mobile .icon-box .wechat-box .wechat-qr {
+  left: 100px;
+}
+
+.mobile icon-box {
+  bottom: 300px;
+}
